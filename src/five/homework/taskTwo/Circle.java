@@ -1,8 +1,8 @@
 package five.homework.taskTwo;
 
 public class Circle {
-        public double diameter;
-        public double radius;
+        private double diameter;
+        private double radius;
 
         public Circle(double _diameter, double _radius){
                 this.diameter = _diameter;
