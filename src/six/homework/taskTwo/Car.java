@@ -15,52 +15,57 @@ public class Car {
         this.carBody = carBody;
     }
 
-    public double getPrice() {
-        return price;
-    }
+    //замість конструктора вище можемо використати set, щоб задати параметри
+//    public void setPrice(double price) {
+//        this.price = price;
+//    }
+//    public void setEnginePower(double enginePower) {
+//        this.enginePower = enginePower;
+//    }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public double getPrice() {
+        return price *= 0.80;
     }
 
     public double getEnginePower() {
-        return enginePower;
+        return enginePower += 0.02;
     }
 
-    public void setEnginePower(double enginePower) {
-        this.enginePower = enginePower;
+    public double getDiameter() {
+        return steeringWheel.getDiameter();
     }
 
-    public SteeringWheel getSteeringWheel() {
-        return steeringWheel;
+    public String getSignal() {
+        return steeringWheel.getSignal();
     }
 
-    public void setSteeringWheel(SteeringWheel steeringWheel) {
-        this.steeringWheel = steeringWheel;
+    public int getTireSize() {
+        return wheel.getTireSize();
     }
 
-    public Wheel getWheel() {
-        return wheel;
+    public String getSeason() {
+        return wheel.getSeason();
     }
 
-    public void setWheel(Wheel wheel) {
-        this.wheel = wheel;
+    public String getColor() {
+        return carBody.getColor();
     }
 
-    public CarBody getCarBody() {
-        return carBody;
+    public String getType() {
+        return carBody.getType();
     }
 
-    public void setCarBody(CarBody carBody) {
-        this.carBody = carBody;
-    }
-
-    public void price(){
-            price = price * 0.15;
-        System.out.println(price);
-    }
-    public void enginePower(){
-        enginePower = enginePower + 0.02;
-        System.out.println(enginePower);
+    @Override
+    public String toString() {
+        return "Car{" +
+                "diameter = " + getDiameter() +
+                ", signal = " + getSignal() +
+                ", tire size = " + getTireSize() +
+                ", season = " + getSeason() +
+                ", color = " + getColor() +
+                ", type = " + getType() +
+                ", price = " + getPrice() +
+                ", engine power = " + getEnginePower() +
+                '}';
     }
 }

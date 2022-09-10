@@ -9,27 +9,19 @@ public class Wheel {
         this.season = season;
     }
 
-    public int getTireSize() {
-        return tireSize;
-    }
+    //замість конструктора вище можемо використати set, щоб задати параметри
+//    public void setTireSize(int tireSize) {
+//        this.tireSize = tireSize;
+//    }
+//    public void setSeason(String season) {
+//        this.season = season;
+//    }
 
-    public void setTireSize(int tireSize) {
-        this.tireSize = tireSize;
+    public int getTireSize() {
+        return tireSize += 5;
     }
 
     public String getSeason() {
         return season;
     }
-
-    public void setSeason(String season) {
-        this.season = season;
-    }
-    public void sizeTire(){
-        int size = tireSize + 5;
-        System.out.println(size);
-    }
-    public void saySeason(){
-        System.out.println("Winter");
-    }
-
 }

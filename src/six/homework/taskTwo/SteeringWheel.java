@@ -9,27 +9,20 @@ public class SteeringWheel {
         this.signal = signal;
     }
 
-    public double getDiameter() {
-        return diameter;
-    }
+//замість конструктора вище можемо використати set, щоб задати параметри
 
-    public void setDiameter(double diameter) {
-        this.diameter = diameter;
+//    public void setDiameter(double diameter) {
+//        this.diameter = diameter;
+//    }
+//    public void setSignal(String signal) {
+//        this.signal = signal;
+//    }
+
+    public double getDiameter() {
+        return diameter *= 2;
     }
 
     public String getSignal() {
         return signal;
-    }
-
-    public void setSignal(String signal) {
-        this.signal = signal;
-    }
-
-    public void signal(){
-        System.out.println("Bi-bi-p!");
-    }
-    public void duoDiameter(){
-        double duoDiameter = diameter * 2;
-        System.out.println(duoDiameter);
     }
 }
