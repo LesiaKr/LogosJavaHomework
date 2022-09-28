@@ -11,7 +11,7 @@ public class Animal {
         this.age = age;
     }
 
-    public void getInfo(String name, double speed, int age){
+   public void getInfo(){
         System.out.println("Назва тварини = " + name + ", Швидкість тварини = " + speed + " км/год, Вік тварини  = " + age + " років");
     }
     public String getName() {
