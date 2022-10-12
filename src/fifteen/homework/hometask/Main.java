@@ -1,7 +1,12 @@
 package fifteen.homework.hometask;
 
 import java.util.*;
-
+/*Створити клас (будь який), описати в ньому мінімум два поля, одне з яких
+String, інше числове (довільно яке). Створити в мейн методі Set.
+Наповнити його об’єктами даного класу.
+● Вивести спершу невідсортований список, потім відсортований на
+консоль(використати Comparable для сортування за цими полями);
+● Спробувати зробити завдання з HashSet, LinkedHashSet та TreeSet .*/
 public class Main {
     public static void main(String[] args) {
 //HashSet
