@@ -12,6 +12,8 @@ public class Main {
         myThread.join();
 
         RunnableThread runnableThread = new RunnableThread();
-        runnableThread.run();
+        Thread thread = new Thread(runnableThread);
+        thread.start();
+        //runnableThread.run();
     }
 }
