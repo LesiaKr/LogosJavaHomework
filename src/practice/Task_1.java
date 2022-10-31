@@ -18,6 +18,7 @@ public class Task_1 {
         String[] name3 = new String[] {"Max", "John", "Mark"};
         String[] name4 = new String[] {"Alex", "Jacob", "Mark", "Max"};
         String[] name5 = new String[] {"Alex", "Jacob", "Mark", "Max", "Oleg"};
+        String[] name = new String[] {null};
 
         getNames(name0);
         getNames(name1);
@@ -25,6 +26,7 @@ public class Task_1 {
         getNames(name3);
         getNames(name4);
         getNames(name5);
+        getNames(name);
     }
 
     public static String[] getNames(String[] names){
