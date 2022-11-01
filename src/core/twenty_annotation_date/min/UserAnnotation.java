@@ -1,4 +1,4 @@
-package core.twenty_one.min;
+package core.twenty_annotation_date.min;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

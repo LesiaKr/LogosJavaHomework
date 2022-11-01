@@ -1,4 +1,4 @@
-package core.twenty_one.max;
+package core.twenty_annotation_date.max;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

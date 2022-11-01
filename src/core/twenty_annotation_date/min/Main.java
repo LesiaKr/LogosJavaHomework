@@ -1,4 +1,4 @@
-package core.twenty_one.min;
+package core.twenty_annotation_date.min;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
