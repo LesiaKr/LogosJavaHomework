@@ -1,4 +1,4 @@
-package core.twenty_one;
+package core.twenty_one.min;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
